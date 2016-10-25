@@ -925,6 +925,17 @@ $LNG['api_documentation'] = 'Documentație API';
 $LNG['developers'] = 'Dezvoltatori';
 $LNG['language'] = 'Limbă';
 
+// TIME
+$LNG['just_now'] = 'acum';
+$LNG['second_s'] = 'secundă(e)';
+$LNG['minute_s'] = 'minut(e)';
+$LNG['hour_s'] = 'oră(e)';
+$LNG['day_s'] = 'zi(le)';
+$LNG['week_s'] = 'saptamană(i)';
+$LNG['month_s'] = 'lună(i)';
+$LNG['year_s'] = 'an(i)';
+$LNG['ago'] = 'în urmă';
+
 // MONTHS
 $LNG['month'] = 'Luna';
 $LNG['year'] = 'An';
