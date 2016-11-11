@@ -438,8 +438,11 @@ $LNG['admin_sub_tracks_perpage'] = 'Numărul melodiilor pe pagină';
 $LNG['admin_ttl_com_perpage'] = 'Comentarii';
 $LNG['admin_sub_com_perpage'] = 'Numărul comentariilor pe pagină';
 
-$LNG['admin_ttl_com_perpage'] = 'Comentarii';
-$LNG['admin_sub_com_perpage'] = 'Numărul comentariilor pe pagină';
+$LNG['admin_ttl_chat_perpage'] = 'Conversații';
+$LNG['admin_sub_chat_perpage'] = 'Numărul conversațiilor pe pagină';
+
+$LNG['admin_ttl_permalinks'] = 'Permalinkuri';
+$LNG['admin_sub_permalinks'] = 'Activează structură de link-uri permanente (example.com/profile/username)';
 
 $LNG['admin_ttl_volume'] = 'Volum';
 $LNG['admin_sub_volume'] = 'Setează volumul predefinit';
