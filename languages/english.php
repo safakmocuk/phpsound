@@ -285,6 +285,7 @@ $LNG['user_menu_notifications'] = 'Notifications';
 $LNG['user_menu_social'] = 'Social';
 $LNG['user_menu_plan'] = 'Account Plan';
 $LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Blocked Users';
+$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Delete Account';
 
 $LNG['user_ttl_general'] = 'General Settings';
 $LNG['user_ttl_security'] = 'Password Settings';
@@ -299,6 +300,7 @@ $LNG['user_desc_avatar'] = 'Change your account picture.';
 $LNG['user_desc_cover'] = 'Change your cover picture.';
 $LNG['user_desc_notifications'] = 'Change notifications settings.';
 $LNG['blocked_desc'] = 'Blocked persons can no longer contact you trough messages.';
+$LNG['delete_acc_desc'] = 'Your account will be permanently deleted along with all the related content of it.';
 
 $LNG['ttl_background'] = 'Backgrounds';
 $LNG['sub_background'] = 'Pick a background for your profile';

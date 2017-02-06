@@ -285,6 +285,7 @@ $LNG['user_menu_notifications'] = 'Notificări';
 $LNG['user_menu_social'] = 'Social';
 $LNG['user_menu_plan'] = 'Plan Cont';
 $LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Utilizatori Blocați';
+$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Șterge Cont';
 
 $LNG['user_ttl_general'] = 'Setări Generale';
 $LNG['user_ttl_security'] = 'Setări Parolă';
@@ -299,6 +300,7 @@ $LNG['user_desc_avatar'] = 'Schimbă-ți imaginea de profil';
 $LNG['user_desc_cover'] = 'Schimbă-ți imaginea de copertă';
 $LNG['user_desc_notifications'] = 'Schimbă-ți setările de notificări.';
 $LNG['blocked_desc'] = 'Persoanele blocate nu te mai pot contacta prin mesaje.';
+$LNG['delete_acc_desc'] = 'Contul tău va fi șters definitiv, împreună cu tot conținutul asociat acestuia.';
 
 $LNG['ttl_background'] = 'Fundaluri';
 $LNG['sub_background'] = 'Alege un fundal pentru profilul tău';
