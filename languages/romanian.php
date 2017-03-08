@@ -1,10 +1,14 @@
 <?php
-//======================================================================\\
-// Author: Pricop Alexandru                                             \\
-// Website: http://pricop.info                                          \\
-// Email: pricop2008@yahoo.com                                          \\
-// Language: Romanian                                                   \\
-//======================================================================\\
+// Language Name
+$name = 'Romanian';
+
+// Language Author
+$author = 'phpSound';
+
+// Language URL
+$url = 'http://phpsound.com';
+
+$LNG['lang_direction'] = 'ltr';
 
 $LNG['user_success'] = 'Utilizator creeat cu succes';
 $LNG['user_exists'] = 'Acest nume de utilizator există deja';
@@ -109,7 +113,8 @@ $LNG['general_link'] = 'General';
 $LNG['security_link'] = 'Securitate';
 $LNG['manage_users'] = 'Administrează Utilizatori';
 
-$LNG['theme_install'] = 'Pentru a instala o nouă temă, încarc-o în folderul <strong>themes</strong>.';
+$LNG['theme_install'] = 'Pentru a instala o nouă temă, încarc-o în folderul <strong>themes</strong>';
+$LNG['language_install'] = 'Pentru a instala o limbă, încărcați-o în folderul <strong>languages</strong>';
 $LNG['theme_author_homepage'] = 'Vizitează pagina autorului';
 $LNG['theme_version'] = 'Versiune';
 $LNG['theme_active'] = 'Activă';
@@ -420,19 +425,27 @@ $LNG['admin_menu_users_settings'] 		= $LNG['admin_ttl_users_settings']	= 'Setăr
 $LNG['admin_menu_social'] 				= $LNG['admin_ttl_social']			= 'Autentificare Socială';
 $LNG['admin_menu_pro'] 					= $LNG['admin_ttl_pro']				= 'Conturi Pro';
 $LNG['admin_menu_themes'] 				= $LNG['admin_ttl_themes']			= 'Teme';
+$LNG['admin_menu_languages']			= $LNG['admin_ttl_languages'] 		= 'Limbi';
 $LNG['admin_menu_manage_payments']		= $LNG['admin_ttl_payments']		= 'Manageriază Plăți';
 $LNG['admin_menu_manage_reports']		= $LNG['admin_ttl_reports']			= 'Manageriază Raportări';
 $LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Manageriază Reclame';
 $LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Manageriază Categorii';
+$LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Info Pagini';
 
 $LNG['admin_ttl_title'] = 'Titlu';
 $LNG['admin_sub_title'] = 'Titlul site-ului';
+
+$LNG['logo'] = 'Siglă';
+$LNG['admin_sub_logo'] = 'Sigla site-ului (format PNG)';
 
 $LNG['admin_ttl_captcha'] = 'Captcha';
 $LNG['admin_sub_captcha'] = 'Activează Captcha la înregistrare';
 
 $LNG['admin_ttl_timestamp'] = 'Timestamp';
 $LNG['admin_sub_timestamp'] = 'Tipul timestamp-ului pentru Mesaje, Comentarii și Conversații';
+
+$LNG['admin_ttl_timezone'] = 'Fus orar';
+$LNG['admin_sub_timezone'] = 'Fus orar suportat de PHP';
 
 $LNG['admin_ttl_tracks_perpage'] = 'Melodii';
 $LNG['admin_sub_tracks_perpage'] = 'Numărul melodiilor pe pagină';
@@ -612,6 +625,19 @@ $LNG['admin_ttl_nperwidget'] = 'Notificări Dropdown';
 $LNG['admin_sub_nperwidget'] = 'Numărul de notificări afișate pe categorii (Aprecieri, Comentarii, Mesaje, Împărtășiri, Cereri de prietenie)';
 
 $LNG['admin_sub_tracking'] = 'Codul de monitorizare analitică';
+
+$LNG['page_title'] = 'Titlu pagină';
+$LNG['page_url'] = 'URL pagină';
+$LNG['public_page'] = 'Pagină Publică';
+$LNG['page_content'] = 'Conținut Pagină';
+$LNG['create_page'] = 'Creează o pagină';
+
+$LNG['sub_page_title'] = 'Titlul paginii (suportă texte translatabile)';
+$LNG['sub_page_url'] = 'URL-ul paginii (fără caractere speciale)';
+$LNG['sub_public_page'] = 'Afisează pagina în subsol și meniul lateral';
+$LNG['sub_page_content'] = 'Conținutul paginii (suportă texte translatabile)';
+$LNG['url_exists'] = 'Acest URL de pagină există deja';
+$LNG['page_deleted'] = 'Pagina <strong>%s</strong> a fost ștearsă';
 
 $LNG['per_page'] = '/ pagină';
 $LNG['per_ip'] = '/ IP';
@@ -905,6 +931,8 @@ $LNG['add'] = 'Adaugă';
 $LNG['save'] = 'Salvează';
 $LNG['send'] = 'Trimite';
 $LNG['all'] = 'Toate';
+$LNG['default'] = 'Principală';
+$LNG['make_default'] = 'Fă-o principală';
 $LNG['categories'] = 'Categorii';
 $LNG['stream'] = 'Stream';
 $LNG['track'] = 'Melodie';
@@ -918,6 +946,7 @@ $LNG['popular_music'] = 'Melodii Populare';
 $LNG['liked_music'] = 'Melodii Apreciate';
 $LNG['go_pro'] = 'Devino Pro';
 $LNG['edit'] = 'Editează';
+$LNG['shuffle'] = 'Amestecă';
 $LNG['upload'] = 'Încarcă';
 $LNG['features'] = 'Facilități';
 $LNG['search_for_people'] = 'Caută...';
@@ -926,7 +955,6 @@ $LNG['terms_of_use'] = 'Termeni de utilizare';
 $LNG['about'] = 'Despre';
 $LNG['disclaimer'] = 'Disclaimer';
 $LNG['contact'] = 'Contact';
-$LNG['api_documentation'] = 'Documentație API';
 $LNG['developers'] = 'Dezvoltatori';
 $LNG['language'] = 'Limbă';
 

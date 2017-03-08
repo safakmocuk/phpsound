@@ -1,10 +1,14 @@
 <?php
-//======================================================================\\
-// Author: Pricop Alexandru                                             \\
-// Website: http://pricop.info                                          \\
-// Email: pricop2008@yahoo.com                                          \\
-// Language: English                                                    \\
-//======================================================================\\
+// Language Name
+$name = 'English';
+
+// Language Author
+$author = 'phpSound';
+
+// Language URL
+$url = 'http://phpsound.com';
+
+$LNG['lang_direction'] = 'ltr';
 
 $LNG['user_success'] = 'User succesfully created';
 $LNG['user_exists'] = 'This username already exists';
@@ -109,7 +113,8 @@ $LNG['general_link'] = 'General';
 $LNG['security_link'] = 'Security';
 $LNG['manage_users'] = 'Manage Users';
 
-$LNG['theme_install'] = 'To install a new theme, upload it on the <strong>themes</strong> folder.';
+$LNG['theme_install'] = 'To install a new theme, upload it on the <strong>themes</strong> folder';
+$LNG['language_install'] = 'To install a new language, upload it on the <strong>languages</strong> folder';
 $LNG['theme_author_homepage'] = 'Visit the author homepage';
 $LNG['theme_version'] = 'Version';
 $LNG['theme_active'] = 'Active';
@@ -420,19 +425,27 @@ $LNG['admin_menu_users_settings'] 		= $LNG['admin_ttl_users_settings']	= 'Users 
 $LNG['admin_menu_social'] 				= $LNG['admin_ttl_social']			= 'Social Login';
 $LNG['admin_menu_pro'] 					= $LNG['admin_ttl_pro']				= 'Pro Accounts';
 $LNG['admin_menu_themes'] 				= $LNG['admin_ttl_themes']			= 'Themes';
+$LNG['admin_menu_languages']			= $LNG['admin_ttl_languages'] 		= 'Languages';
 $LNG['admin_menu_manage_payments']		= $LNG['admin_ttl_payments']		= 'Manage Payments';
 $LNG['admin_menu_manage_reports']		= $LNG['admin_ttl_reports']			= 'Manage Reports';
 $LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Manage Ads';
 $LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Manage Categories';
+$LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Info Pages';
 
 $LNG['admin_ttl_title'] = 'Title';
 $LNG['admin_sub_title'] = 'The site\'s title';
+
+$LNG['logo'] = 'Logo';
+$LNG['admin_sub_logo'] = 'The site\'s logo (PNG format)';
 
 $LNG['admin_ttl_captcha'] = 'Captcha';
 $LNG['admin_sub_captcha'] = 'Enable captcha at registration';
 
 $LNG['admin_ttl_timestamp'] = 'Timestamp';
 $LNG['admin_sub_timestamp'] = 'The Tracks, Comments and Chat timestamps type';
+
+$LNG['admin_ttl_timezone'] = 'Timezone';
+$LNG['admin_sub_timezone'] = 'Timezone supported by PHP';
 
 $LNG['admin_ttl_tracks_perpage'] = 'Tracks';
 $LNG['admin_sub_tracks_perpage'] = 'The number of tracks per page';
@@ -612,6 +625,19 @@ $LNG['admin_ttl_nperwidget'] = 'Dropdown Notifications';
 $LNG['admin_sub_nperwidget'] = 'Number of notifications to be shown per category (likes, comments, tracks)';
 
 $LNG['admin_sub_tracking'] = 'The analytics tracking code';
+
+$LNG['page_title'] = 'Page Title';
+$LNG['page_url'] = 'Page URL';
+$LNG['public_page'] = 'Public Page';
+$LNG['page_content'] = 'Page Content';
+$LNG['create_page'] = 'Create Page';
+
+$LNG['sub_page_title'] = 'The page title (supports translatable strings)';
+$LNG['sub_page_url'] = 'The page URL (no special characters)';
+$LNG['sub_public_page'] = 'Display the page in footer and sidebar';
+$LNG['sub_page_content'] = 'The page content (supports translatable strings)';
+$LNG['url_exists'] = 'This page URL already exists';
+$LNG['page_deleted'] = 'The page <strong>%s</strong> has been deleted';
 
 $LNG['per_page'] = '/ page';
 $LNG['per_ip'] = '/ IP';
@@ -905,6 +931,8 @@ $LNG['add'] = 'Add';
 $LNG['save'] = 'Save';
 $LNG['send'] = 'Send';
 $LNG['all'] = 'All';
+$LNG['default'] = 'Default';
+$LNG['make_default'] = 'Make Default';
 $LNG['categories'] = 'Categories';
 $LNG['stream'] = 'Stream';
 $LNG['track'] = 'Track';
@@ -918,6 +946,7 @@ $LNG['popular_music'] = 'Popular Music';
 $LNG['liked_music'] = 'Liked Music';
 $LNG['go_pro'] = 'Go Pro';
 $LNG['edit'] = 'Edit';
+$LNG['shuffle'] = 'Shuffle';
 $LNG['upload'] = 'Upload';
 $LNG['features'] = 'Features';
 $LNG['search_for_people'] = 'Search...';
@@ -926,7 +955,6 @@ $LNG['terms_of_use'] = 'Terms of Use';
 $LNG['about'] = 'About';
 $LNG['disclaimer'] = 'Disclaimer';
 $LNG['contact'] = 'Contact';
-$LNG['api_documentation'] = 'API Documentation';
 $LNG['developers'] = 'Developers';
 $LNG['language'] = 'Language';
 
