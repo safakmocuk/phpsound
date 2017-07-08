@@ -507,6 +507,21 @@ $LNG['admin_sub_pro_track_size'] = 'Track size allowed to upload by pro users (i
 $LNG['admin_ttl_pro_total_size'] = 'Pro Total Upload';
 $LNG['admin_sub_pro_total_size'] = 'Total track upload size allowed to upload by pro users (in MB)';
 
+$LNG['admin_as3'] = 'Amazon S3 Storage';
+$LNG['admin_sub_as3'] = 'Enable the Amazon S3 Storage';
+
+$LNG['admin_as3_key'] = 'Key';
+$LNG['admin_sub_as3_key'] = 'Amazon S3 Access Key ID';
+
+$LNG['admin_as3_secret'] = 'Secret Key';
+$LNG['admin_sub_as3_secret'] = 'Amazon S3 Secret Access Key';
+
+$LNG['admin_as3_region'] = 'Region';
+$LNG['admin_sub_as3_region'] = 'Amazon S3 Region';
+
+$LNG['admin_as3_bucket'] = 'Bucket';
+$LNG['admin_sub_as3_bucket'] = 'Amazon S3 Bucket Name';
+
 $LNG['admin_ttl_fbapp'] = 'Facebook Login';
 $LNG['admin_sub_fbapp'] = 'Allow users to log-in using Facebook';
 
@@ -804,6 +819,7 @@ $LNG['general'] = 'General';
 $LNG['registration'] = 'Registration';
 $LNG['limits'] = 'Limits';
 $LNG['emails'] = 'Emails';
+$LNG['storage'] = 'Storage';
 $LNG['recover_sub_username'] = 'Type in the username you want to recover the password';
 $LNG['delete_track_desc'] = 'Are you sure you want to delete this track?';
 $LNG['delete_playlist_desc'] = 'Are you sure you want to delete this playlist?';
@@ -960,13 +976,20 @@ $LNG['language'] = 'Language';
 
 // TIME
 $LNG['just_now'] = 'just now';
-$LNG['second_s'] = 'second(s)';
-$LNG['minute_s'] = 'minute(s)';
-$LNG['hour_s'] = 'hour(s)';
-$LNG['day_s'] = 'day(s)';
-$LNG['week_s'] = 'week(s)';
-$LNG['month_s'] = 'month(s)';
-$LNG['year_s'] = 'year(s)';
+$LNG['ta_second'] = 'a second';
+$LNG['ta_seconds'] = '%d seconds';
+$LNG['ta_minute'] = 'a minute';
+$LNG['ta_minutes'] = '%d minutes';
+$LNG['ta_hour'] = 'an hour';
+$LNG['ta_hours'] = '%d hours';
+$LNG['ta_day'] = 'a day';
+$LNG['ta_days'] = '%d days';
+$LNG['ta_week'] = 'a week';
+$LNG['ta_weeks'] = '%d weeks';
+$LNG['ta_month'] = 'a month';
+$LNG['ta_months'] = '%d months';
+$LNG['ta_year'] = 'a year';
+$LNG['ta_years'] = '%d years';
 $LNG['ago'] = 'ago';
 
 // MONTHS

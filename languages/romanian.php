@@ -507,6 +507,21 @@ $LNG['admin_sub_pro_track_size'] = 'Dimensiune admisă pentru încărcare de uti
 $LNG['admin_ttl_pro_total_size'] = 'Încărcare Total Pro';
 $LNG['admin_sub_pro_total_size'] = 'Încărcare totala admisă de melodii pentru un utilizator pro (în MB)';
 
+$LNG['admin_as3'] = 'Stocare Amazon S3';
+$LNG['admin_sub_as3'] = 'Activează stocarea cu Amazon S3';
+
+$LNG['admin_as3_key'] = 'Key';
+$LNG['admin_sub_as3_key'] = 'Amazon S3 Access Key ID';
+
+$LNG['admin_as3_secret'] = 'Secret Key';
+$LNG['admin_sub_as3_secret'] = 'Amazon S3 Secret Access Key';
+
+$LNG['admin_as3_region'] = 'Region';
+$LNG['admin_sub_as3_region'] = 'Amazon S3 Region';
+
+$LNG['admin_as3_bucket'] = 'Bucket';
+$LNG['admin_sub_as3_bucket'] = 'Amazon S3 Bucket Name';
+
 $LNG['admin_ttl_fbapp'] = 'Autentificare Facebook';
 $LNG['admin_sub_fbapp'] = 'Permite utilizatorilor autentificarea prin Facebook';
 
@@ -804,6 +819,7 @@ $LNG['general'] = 'General';
 $LNG['registration'] = 'Înregistrare';
 $LNG['limits'] = 'Limitări';
 $LNG['emails'] = 'Emailuri';
+$LNG['storage'] = 'Stocare';
 $LNG['recover_sub_username'] = 'Introdu numele de utilizator pentru care dorești recuperarea parolei';
 $LNG['delete_track_desc'] = 'Ești sigur(ă) că vrei să ștergi această melodie?';
 $LNG['delete_playlist_desc'] = 'Esti sigur(ă) că vrei să ștergi acest playlist?';
@@ -944,7 +960,7 @@ $LNG['author'] = 'Autor';
 $LNG['latest_music'] = 'Ultimele Melodii';
 $LNG['popular_music'] = 'Melodii Populare';
 $LNG['liked_music'] = 'Melodii Apreciate';
-$LNG['go_pro'] = 'Devino Pro';
+$LNG['go_pro'] = 'Deveniți Pro';
 $LNG['edit'] = 'Editează';
 $LNG['shuffle'] = 'Amestecă';
 $LNG['upload'] = 'Încarcă';
@@ -960,13 +976,20 @@ $LNG['language'] = 'Limbă';
 
 // TIME
 $LNG['just_now'] = 'acum';
-$LNG['second_s'] = 'secundă(e)';
-$LNG['minute_s'] = 'minut(e)';
-$LNG['hour_s'] = 'oră(e)';
-$LNG['day_s'] = 'zi(le)';
-$LNG['week_s'] = 'saptamană(i)';
-$LNG['month_s'] = 'lună(i)';
-$LNG['year_s'] = 'an(i)';
+$LNG['ta_second'] = 'o secundă';
+$LNG['ta_seconds'] = '%d secunde';
+$LNG['ta_minute'] = 'un minut';
+$LNG['ta_minutes'] = '%d minute';
+$LNG['ta_hour'] = 'o oră';
+$LNG['ta_hours'] = '%d ore';
+$LNG['ta_day'] = 'o zi';
+$LNG['ta_days'] = '%d zile';
+$LNG['ta_week'] = 'o săptămână';
+$LNG['ta_weeks'] = '%d săptămâni';
+$LNG['ta_month'] = 'o lună';
+$LNG['ta_months'] = '%d luni';
+$LNG['ta_year'] = 'un an';
+$LNG['ta_years'] = '%d ani';
 $LNG['ago'] = 'în urmă';
 
 // MONTHS
@@ -976,7 +999,7 @@ $LNG['day'] = 'Zi';
 $LNG['month_1'] = 'Ianuarie';
 $LNG['month_2'] = 'Februarie';
 $LNG['month_3'] = 'Martie';
-$LNG['month_4'] = 'Aprilie';
+$LNG['month_4'] = 'Aprile';
 $LNG['month_5'] = 'Mai';
 $LNG['month_6'] = 'Iunie';
 $LNG['month_7'] = 'Iulie';
