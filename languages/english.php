@@ -158,7 +158,7 @@ $LNG['cancel'] = 'Vazgeç';
 $LNG['close'] = 'Kapat';
 
 // REPORT //
-$LNG['1_not_exists'] = 'The reported track does not exist.';
+$LNG['1_not_exists'] = 'Şikayet edilmiş parça mevcut değil.';
 $LNG['0_not_exists'] = 'The reported comment does not exist.';
 $LNG['1_already_reported'] = 'This track has already been reported and it will be reviewed in the shortest time, thank you.';
 $LNG['0_already_reported'] = 'This comment has already been reported and it will be reviewed in the shortest time, thank you.';
