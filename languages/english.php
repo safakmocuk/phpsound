@@ -1,6 +1,6 @@
 <?php
 // Language Name
-$name = 'English';
+$name = 'Turkish';
 
 // Language Author
 $author = 'phpSound';
@@ -10,44 +10,44 @@ $url = 'http://phpsound.com';
 
 $LNG['lang_direction'] = 'ltr';
 
-$LNG['user_success'] = 'User succesfully created';
-$LNG['user_exists'] = 'This username already exists';
-$LNG['email_exists'] = 'This e-mail is already in use';
-$LNG['all_fields'] = 'All fields are required';
-$LNG['user_alnum'] = 'The username must consists only from letters and numbers';
-$LNG['user_too_short'] = 'The username must be between 3 and 32 characters';
-$LNG['user_limit'] = 'Too many accounts created from this IP';
-$LNG['invalid_email'] = 'Invalid e-mail';
-$LNG['invalid_user_pw'] = 'Invalid username or password';
-$LNG['invalid_captcha'] = 'Invalid captcha';
-$LNG['log_out'] = 'Log Out';
-$LNG['hello'] = 'Hello';
-$LNG['connect'] = 'Connect';
-$LNG['register'] = 'Register';
-$LNG['login'] = 'Login';
-$LNG['password'] = 'Password';
-$LNG['username'] = 'Username';
+$LNG['user_success'] = 'Kullanıcı başarılı şekilde oluşturuldu';
+$LNG['user_exists'] = 'Bu kullanıcı adı zaten mevcut';
+$LNG['email_exists'] = 'Bu e-mail zaten kullanımda';
+$LNG['all_fields'] = 'Tüm alanlar zorunludur';
+$LNG['user_alnum'] = 'Kullanıcı adı sadece rakam ve harflerden oluşmalıdır';
+$LNG['user_too_short'] = 'Kullanıcı adı 3 ila 32 karakter arasında olabilir';
+$LNG['user_limit'] = 'Bu IP üzerinden çok fazla hesap oluşturuldu';
+$LNG['invalid_email'] = 'Geçersiz e-mail';
+$LNG['invalid_user_pw'] = 'Geçersiz kullanıcı adı yada şifre';
+$LNG['invalid_captcha'] = 'Geçersiz captcha';
+$LNG['log_out'] = 'Çıkış';
+$LNG['hello'] = 'Merhaba';
+$LNG['connect'] = 'Bağlan';
+$LNG['register'] = 'Kayıt';
+$LNG['login'] = 'Giriş';
+$LNG['password'] = 'Şifre';
+$LNG['username'] = 'Kullanıcı adı';
 $LNG['email'] = 'Email';
 $LNG['captcha'] = 'Captcha';
-$LNG['username_or_email'] = 'Username or email';
-$LNG['welcome_desc'] = 'share your music, connect with artists, explore new content';
-$LNG['join_now'] = 'Join now';
-$LNG['learn_more'] = 'Learn More';
-$LNG['creators'] = 'Creators';
-$LNG['listeners'] = 'Listeners';
-$LNG['audience'] = 'Audience';
-$LNG['organize'] = 'Organize';
+$LNG['username_or_email'] = 'Kullanıcı adı ya da email';
+$LNG['welcome_desc'] = 'Müziğini paylaş, Sanatçılar ile iletişim kur, Yeni içerikleri keşfet';
+$LNG['join_now'] = 'Hemen Katıl';
+$LNG['learn_more'] = 'Daha fazalası';
+$LNG['creators'] = 'Oluşturucular';
+$LNG['listeners'] = 'Dinleyiciler';
+$LNG['audience'] = 'İzleyici';
+$LNG['organize'] = 'Düzenle';
 $LNG['featured'] = 'Featured';
-$LNG['popular'] = 'Popular';
-$LNG['latest'] = 'Latest';
-$LNG['upload_desc'] = 'Upload your sounds, music, podcasts to the world';
-$LNG['audience_desc'] = 'Connect with our community and increase your audience';
-$LNG['statistics_desc'] = 'Get to know your audience with advanced statistics';
-$LNG['explore_desc'] = 'Explore new music, discover new people and engage with artists';
-$LNG['share_desc'] = 'Share your favorite music with your friends on social networks';
-$LNG['organize_desc'] = 'Create playlists and organize your music the way you like';
-$LNG['forgot_password'] = 'Forgot your password?';
-$LNG['all_rights_reserved'] = 'All rights reserved';
+$LNG['popular'] = 'Popüler';
+$LNG['latest'] = 'En Son';
+$LNG['upload_desc'] = 'Müziğini, sesini, podcastini  yükle bütün dünyaya gönder';
+$LNG['audience_desc'] = 'Topluluğumuza katıl izleyici sayını arttır';
+$LNG['statistics_desc'] = 'İzleyicilerin hakkında ileri düzey istatistiklere ulaş';
+$LNG['explore_desc'] = 'Yeni müzikler keşfet, yeni insanlar ile tanış, sanatçılar ile iletişim kur';
+$LNG['share_desc'] = 'Favori parçalarını sosyal ağlarda arkadaşların ile paylaş';
+$LNG['organize_desc'] = 'Çalma listeleri oluştur ve müzilerini istediğin gibi düzenle';
+$LNG['forgot_password'] = 'Şifrenizi mi unuttunuz?';
+$LNG['all_rights_reserved'] = 'Tüm hakları saklıdır';
 
 // NOTIFICATION BOXES //
 $LNG['settings_saved'] = 'Settings Saved';
