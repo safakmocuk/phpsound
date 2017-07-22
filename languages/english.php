@@ -89,24 +89,24 @@ $LNG['notif_success_saved'] = 'Bildirimler başarı ile güncellendi.';
 $LNG['password_reset'] = 'Şifrenizi başarılı şekilde sıfırladınız. Artık yeni şifreniz ile giriş yapabilirsiniz.';
 
 // MAIL CONTENT //
-$LNG['welcome_mail'] = 'Welcome to %s';
-$LNG['email_footer_unsub'] = '<br /><br /><span style="color: #aaa;">This email was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
+$LNG['welcome_mail'] = 'Hoşgeldiniz %s ';
+$LNG['email_footer_unsub'] = '<br /><br /><span style="color: #aaa;">Bu email otomatik olarak gönderilmiştir, gelecekte bu gibi emailleri <strong>%s</strong> sitesinden  almak istemiyorsanız, lütfen <a href="%s">mail listesinden ayrılın</a>.</span>';
 $LNG['email_footer_gen'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
-$LNG['email_hello'] = 'Hello <strong>%s</strong>,<br /><br />';
-$LNG['user_created'] = 'Thank you for joining <strong>%s</strong><br /><br />Your username: <strong>%s</strong><br />Your Password: <strong>%s</strong><br /><br />You can log-in at: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
-$LNG['recover_mail'] = 'Password Recovery';
-$LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br /><br />Your Username: <strong>%s</strong><br />Your Reset Key: <strong>%s</strong><br /><br />You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
-$LNG['ttl_comment_email'] = '%s commented on your track';
-$LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has commented on your <strong><a href="%s">track.</a></strong>'.$LNG['email_footer_unsub'];
-$LNG['ttl_like_email'] = '%s liked your track';
-$LNG['like_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> liked your <strong><a href="%s">track.</a></strong>'.$LNG['email_footer_unsub'];
-$LNG['ttl_new_friend_email'] = '%s added you as friend';
-$LNG['new_friend_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> added you as friend.'.$LNG['email_footer_unsub'];
-$LNG['ttl_copyright_notification'] = 'Copyright Claim - %s';
-$LNG['copyright_mail_0'] = $LNG['email_hello'].'Your track <a href="%s">%s</a> has been suspended due to a copyright claim by <a href="%s">%s</a>. If you think this was an error, please contact us. Case ID: %s'.$LNG['email_footer_gen'];
-$LNG['copyright_mail_1'] = $LNG['email_hello'].'The infringing track <a href="%s">%s</a> has been suspended. Thank you. Case ID: %s'.$LNG['email_footer_gen'];
-$LNG['ttl_suspended_account_mail'] = 'Your account has been suspended';
-$LNG['suspended_account_mail'] = $LNG['email_hello'].'Your account has been suspended. If you think this was an error, please contact us.'.$LNG['email_footer_gen'];
+$LNG['email_hello'] = 'Merhaba <strong>%s</strong>,<br /><br />';
+$LNG['user_created'] = 'Katılımınız için teşekkür ederiz <strong>%s</strong><br /><br />Kullanıcı adınız: <strong>%s</strong><br />Şifreniz: <strong>%s</strong><br /><br />Buradan giriş yapabilirsiniz : <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['recover_mail'] = 'Şifre Kurtarma';
+$LNG['recover_content'] = 'Bir şifre kurtarma talebi oluşturuldu, böyle bir talebiniz olmadı ise bu emaili gözardı edebilirsiniz. <br /><br />Kullanıcı adınız: <strong>%s</strong><br />Sıfırlama anahtarınız: <strong>%s</strong><br /><br />Sıfırlama sayfasına ulaşmak için linke tıklayınız: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['ttl_comment_email'] = '%s kaydınıza yorum yaptı';
+$LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> , <strong><a href="%s">kaydınıza yorum yaptı.</a></strong>'.$LNG['email_footer_unsub'];
+$LNG['ttl_like_email'] = '%s kaydınızı beğendi';
+$LNG['like_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> , <strong><a href="%s">kaydınızı beğendi.</a></strong>'.$LNG['email_footer_unsub'];
+$LNG['ttl_new_friend_email'] = '%s sizi arkadaş olarak ekledi';
+$LNG['new_friend_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> sizi arkadaş olarak ekledi.'.$LNG['email_footer_unsub'];
+$LNG['ttl_copyright_notification'] = 'Telif hakkı - %s';
+$LNG['copyright_mail_0'] = $LNG['email_hello'].'Kaydınız <a href="%s">%s</a> telif hakları gerekçesiyle <a href="%s">%s</a> tarafından askıya alındı.Eğer bunun bir hata olduğunu düşünüyorsanız , lütfen bizimle iletişime geçiniz. VAKA ID: %s'.$LNG['email_footer_gen'];
+$LNG['copyright_mail_1'] = $LNG['email_hello'].'Hak ihlali yapılmış kayıt <a href="%s">%s</a> askıya alınmıştır. Teşekkürler. VAKA ID: %s'.$LNG['email_footer_gen'];
+$LNG['ttl_suspended_account_mail'] = 'Hesabınız askıya alınmıştır';
+$LNG['suspended_account_mail'] = $LNG['email_hello'].'Hesabınız askıya alınmıştır. Eğer bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçiniz.'.$LNG['email_footer_gen'];
 
 // ADMIN PANEL //
 $LNG['general_link'] = 'General';
