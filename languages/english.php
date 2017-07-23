@@ -260,160 +260,160 @@ $LNG['congratulations'] = 'Tebrikler';
 $LNG['track_uploaded'] = 'Parçanız <strong><a href="%s" rel="loadpage">%s</a></strong> başarı ile yüklendi';
 $LNG['or'] = 'ya da';
 
-$LNG['license'] = 'License';
-$LNG['licensed_under'] = 'Licensed under';
+$LNG['license'] = 'Lisans';
+$LNG['licensed_under'] = 'Lisansı altında';
 $LNG['metadata'] = 'Metadata';
-$LNG['permissions'] = 'Permissions';
-$LNG['buy_link'] = 'Buy link';
-$LNG['release_date'] = 'Release date';
-$LNG['tags'] = 'Tags';
-$LNG['edit_tags'] = 'separated by comma, including genres';
-$LNG['visibility'] = 'Visibility';
-$LNG['allow_downloads'] = 'Allow downloads';
-$LNG['record_label'] = 'Record label';
-$LNG['all_rights'] = 'All rights reserved';
+$LNG['permissions'] = 'İzinler';
+$LNG['buy_link'] = 'Satınalma linki';
+$LNG['release_date'] = 'Yayınlanma tarihi';
+$LNG['tags'] = 'Etiketler';
+$LNG['edit_tags'] = 'virgülle ayrılmış, tarzı dahil edilmiş';
+$LNG['visibility'] = 'Gösterilebime';
+$LNG['allow_downloads'] = 'İndirilebilir';
+$LNG['record_label'] = 'Kayıt etiketi';
+$LNG['all_rights'] = 'Tüm hakları saklıdır';
 $LNG['creative_commons'] = 'Creative Commons';
-$LNG['license_at'] = 'Attribution';
-$LNG['license_nc'] = 'Noncommercial';
-$LNG['license_nd'] = 'No derivative works';
-$LNG['license_sa'] = 'Share Alike';
-$LNG['license_at_desc'] = 'You let others copy, distribute, display, and perform your copyrighted work - and derivative works based upon it - but only if they give credit the way you request.';
+$LNG['license_at'] = 'Nitelik';
+$LNG['license_nc'] = 'Ticari değil';
+$LNG['license_nd'] = 'Benzer çalışması olmayan';
+$LNG['license_sa'] = 'Gibi paylaş';
+$LNG['license_at_desc'] = 'Telif hakkıyla korunan çalışmanızın ve bunlara dayanan türev çalışmaların başkalarının kopyasını, dağıtımını, görüntülemesini ve gerçekleştirmesine izin veriyorsunuz, ancak sizi refere ettikleri ve sizden talep ettikleri durumlarda.';
 $LNG['license_nc_desc'] = 'You let others copy, distribute, display, and perform your work - and derivative works based upon it - but for noncommercial purposes only.';
 $LNG['license_nd_desc'] = 'You let others copy, distribute, display, and perform only verbatim copies of your work, not derivative works based upon it.';
-$LNG['license_sa_desc'] = 'You allow others to distribute derivative works only under a license identical to the license that governs your work.';
+$LNG['license_sa_desc'] = 'Diğer kişilerin türev çalışmalarını, yalnızca işinizi yöneten lisansa benzer bir lisansla dağıtmalarına izin veriyorsunuz.';
 
 // USER PANEL //
-$LNG['user_menu_general'] = 'General';
-$LNG['user_menu_security'] = 'Password';
-$LNG['user_menu_avatar'] = 'Profile';
-$LNG['user_menu_notifications'] = 'Notifications';
-$LNG['user_menu_social'] = 'Social';
-$LNG['user_menu_plan'] = 'Account Plan';
-$LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Blocked Users';
-$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Delete Account';
+$LNG['user_menu_general'] = 'Genel';
+$LNG['user_menu_security'] = 'Şifre';
+$LNG['user_menu_avatar'] = 'Profil';
+$LNG['user_menu_notifications'] = 'Bildirimler';
+$LNG['user_menu_social'] = 'Sosyal';
+$LNG['user_menu_plan'] = 'Hesap planı';
+$LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Engellenmiş kullanıcılar';
+$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Hesabı sil';
 
-$LNG['user_ttl_general'] = 'General Settings';
-$LNG['user_ttl_security'] = 'Password Settings';
-$LNG['user_ttl_avatar'] = 'Profile Settings';
-$LNG['user_ttl_notifications'] = 'Notifications Settings';
-$LNG['user_ttl_social'] = 'Social Networks Profiles';
-$LNG['user_ttl_plan'] = 'Account Plan';
+$LNG['user_ttl_general'] = 'Genel ayarlar';
+$LNG['user_ttl_security'] = 'Şifre ayarları';
+$LNG['user_ttl_avatar'] = 'Profil ayarları';
+$LNG['user_ttl_notifications'] = 'Bildirim ayarları';
+$LNG['user_ttl_social'] = 'Sosyal platform profilleri';
+$LNG['user_ttl_plan'] = 'Hesap planı';
 
-$LNG['user_desc_general'] = 'Change account, privacy, location settings.';
-$LNG['user_desc_security'] = 'Change your password.';
-$LNG['user_desc_avatar'] = 'Change your account picture.';
-$LNG['user_desc_cover'] = 'Change your cover picture.';
-$LNG['user_desc_notifications'] = 'Change notifications settings.';
-$LNG['blocked_desc'] = 'Blocked persons can no longer contact you trough messages.';
-$LNG['delete_acc_desc'] = 'Your account will be permanently deleted along with all the related content of it.';
+$LNG['user_desc_general'] = 'Hesabı, gizlilik, konum ayarlarını değiştir.';
+$LNG['user_desc_security'] = 'Şifrenizi değiştirin.';
+$LNG['user_desc_avatar'] = 'Hesap görüntünüzü değiştirin.';
+$LNG['user_desc_cover'] = 'Kapak fotoğrafınızı değiştirin.';
+$LNG['user_desc_notifications'] = 'Bildirim ayarlarınızı değiştirin.';
+$LNG['blocked_desc'] = 'Engellenmiş kişiler sizin ile mesaj yoluyla iletişim kuramayacak.';
+$LNG['delete_acc_desc'] = 'Hesabınız ilişiğindeki tüm içerik ile birlikte kalıcı olarak silinecek.';
 
-$LNG['ttl_background'] = 'Backgrounds';
-$LNG['sub_background'] = 'Pick a background for your profile';
+$LNG['ttl_background'] = 'Arkaplanlar';
+$LNG['sub_background'] = 'Profiliniz için bir arkaplan seçiniz';
 
-$LNG['ttl_first_name'] = 'First Name';
-$LNG['sub_first_name'] = 'Enter your first name';
+$LNG['ttl_first_name'] = 'Adınız';
+$LNG['sub_first_name'] = 'Adınızı giriniz';
 
-$LNG['ttl_last_name'] = 'Last Name';
-$LNG['sub_last_name'] = 'Enter your last name';
+$LNG['ttl_last_name'] = 'Soyadınız';
+$LNG['sub_last_name'] = 'Soyadınızı giriniz';
 
 $LNG['ttl_email'] = 'Email';
-$LNG['sub_email'] = 'E-mail will not be displayed';
+$LNG['sub_email'] = 'E-mail adresiniz görüntülenmeyecek';
 
-$LNG['ttl_country'] = 'Country';
-$LNG['sub_country'] = 'Country you live in';
+$LNG['ttl_country'] = 'Ülke';
+$LNG['sub_country'] = 'Yaşadığınız ülke';
 
-$LNG['ttl_city'] = 'City';
-$LNG['sub_city'] = 'City you live in';
+$LNG['ttl_city'] = 'Şehir';
+$LNG['sub_city'] = 'Yaşadığınız şehir';
 
-$LNG['ttl_website'] = 'Website';
-$LNG['sub_website'] = 'If you have a blog, personal page, enter it';
+$LNG['ttl_website'] = 'Websiteniz';
+$LNG['sub_website'] = 'Kişisel bir bloğunuz, websayfanız var ise giriniz';
 
-$LNG['ttl_profile'] = 'Profile';
-$LNG['sub_profile'] = 'Profile Privacy';
+$LNG['ttl_profile'] = 'Profil';
+$LNG['sub_profile'] = 'Profil gizliliği';
 
-$LNG['ttl_offline'] = 'Chat Status';
-$LNG['sub_offline'] = 'The visibility status for the Chat';
+$LNG['ttl_offline'] = 'Sohbet Durumu';
+$LNG['sub_offline'] = 'Sohbet alanında görünürlük durumunuz';
 
 $LNG['ttl_facebook'] = 'Facebook';
-$LNG['sub_facebook'] = 'Your Facebook profile ID.';
+$LNG['sub_facebook'] = 'Facebook profil ID.';
 
 $LNG['ttl_twitter'] = 'Twitter';
-$LNG['sub_twitter'] = 'Your Twitter profile ID.';
+$LNG['sub_twitter'] = 'Twitter profil ID.';
 
 $LNG['ttl_google'] = 'Google+';
-$LNG['sub_google'] = 'Your Google+ profile ID.';
+$LNG['sub_google'] = 'Google+ profil ID.';
 
 $LNG['ttl_youtube'] = 'YouTube';
-$LNG['sub_youtube'] = 'Your YouTube profile ID.';
+$LNG['sub_youtube'] = 'YouTube profil ID.';
 
 $LNG['ttl_soundcloud'] = 'SoundCloud';
-$LNG['sub_soundcloud'] = 'Your SoundCloud profile ID.';
+$LNG['sub_soundcloud'] = 'SoundCloud profil ID.';
 
 $LNG['ttl_myspace'] = 'MySpace';
-$LNG['sub_myspace'] = 'Your MySpace profile ID.';
+$LNG['sub_myspace'] = 'MySpace profil ID.';
 
 $LNG['ttl_tumblr'] = 'Tumblr';
-$LNG['sub_tumblr'] = 'Your Tumblr profile ID.';
+$LNG['sub_tumblr'] = 'Tumblr profil ID.';
 
 $LNG['ttl_vimeo'] = 'Vimeo';
-$LNG['sub_vimeo'] = 'Your Vimeo profile ID.';
+$LNG['sub_vimeo'] = 'Vimeo profil ID.';
 
 $LNG['ttl_lastfm'] = 'Last.fm';
-$LNG['sub_lastfm'] = 'Your Last.fm profile ID.';
+$LNG['sub_lastfm'] = 'Last.fm profil ID.';
 
-$LNG['ttl_description'] = 'Description';
-$LNG['sub_description'] = 'Profile description (160 characters or less)';
+$LNG['ttl_description'] = 'Açıklama';
+$LNG['sub_description'] = 'Profil açıklaması (en fazla 160 karakter)';
 
-$LNG['ttl_upload_avatar'] = 'Upload the selected profile image';
-$LNG['ttl_delete_avatar'] = 'Delete your current profile image';
+$LNG['ttl_upload_avatar'] = 'Seçtiğiniz profil resmini yükle';
+$LNG['ttl_delete_avatar'] = 'Geçerli profil resmini sil';
 
-$LNG['opt_public'] = 'Public';
-$LNG['opt_private'] = 'Private';
-$LNG['opt_semi_private'] = 'Only subscribed allowed';
+$LNG['opt_public'] = 'Herkese açık';
+$LNG['opt_private'] = 'Özel';
+$LNG['opt_semi_private'] = 'Sadece kayıtlılar görebilir';
 
-$LNG['opt_offline_off'] = 'Online (when available)';
-$LNG['opt_offline_on'] = 'Always Offline';
+$LNG['opt_offline_off'] = 'Çevrimiçi (uygun olduğunda)';
+$LNG['opt_offline_on'] = 'Her zaman Çevrimdışı';
 
-$LNG['ttl_new_password'] = 'New Password';
-$LNG['sub_new_password'] = 'Enter a new password (at least 6 characters)';
-$LNG['ttl_repeat_password'] = 'Repeat Password';
-$LNG['sub_repeat_password'] = 'Repeat your new password';
-$LNG['ttl_current_password'] = 'Current Password';
-$LNG['sub_current_password'] = 'Enter your current password';
-$LNG['save_changes'] = 'Save Changes';
-$LNG['ttl_upload_photo'] = 'Upload Photo';
-$LNG['ttl_upload_cover'] = 'Upload Cover';
-$LNG['ttl_delete_photo'] = 'Delete Photo';
+$LNG['ttl_new_password'] = 'Yeni şifre';
+$LNG['sub_new_password'] = 'Yeni şifre gir (en az 6 karakter)';
+$LNG['ttl_repeat_password'] = 'Şifreyi tekrarla';
+$LNG['sub_repeat_password'] = 'Yeni şifrenizi tekrarlayın';
+$LNG['ttl_current_password'] = 'Şu anki şifreniz';
+$LNG['sub_current_password'] = 'Şu anki şifrenizi giriniz';
+$LNG['save_changes'] = 'Değişiklikleri kaydet';
+$LNG['ttl_upload_photo'] = 'Fotoğraf yükle';
+$LNG['ttl_upload_cover'] = 'Kapak yükle';
+$LNG['ttl_delete_photo'] = 'Fotoğraf sil';
 
-$LNG['ttl_notificationl'] = 'Likes Notifications';
-$LNG['sub_notificationl'] = 'Display alert and notifications for <strong>Likes</strong>';
+$LNG['ttl_notificationl'] = 'Beğeni bildirimleri';
+$LNG['sub_notificationl'] = ' <strong>Beğeniler</strong> için görüntüleme uyarısı ve bildirimler';
 
-$LNG['ttl_notificationc'] = 'Comments Notifications';
-$LNG['sub_notificationc'] = 'Display alert and notifications for <strong>Comments</strong>';
+$LNG['ttl_notificationc'] = 'Yorum bildirimleri';
+$LNG['sub_notificationc'] = '<strong>Yorumlar</strong> için görüntüleme uyarısı ve bildirimler';
 
-$LNG['ttl_notificationd'] = 'Chat Notifications';
-$LNG['sub_notificationd'] = 'Display alert and notifications for <strong>Chats</strong>';
+$LNG['ttl_notificationd'] = 'Sohbet bildirimleri';
+$LNG['sub_notificationd'] = '<strong>Sohbetler</strong> için görüntüleme uyarısı ve bildirimler';
 
-$LNG['ttl_notificationf'] = 'Friends Notifications';
-$LNG['sub_notificationf'] = 'Display alert and notifications for <strong>Friends Additions</strong>';
+$LNG['ttl_notificationf'] = 'Arkadaş bildirimleri';
+$LNG['sub_notificationf'] = '<strong>Arkadaş eklemeleri</strong> için görüntüleme uyarısı ve bildirimler';
 
-$LNG['ttl_email_comment'] = 'Emails on Comments';
-$LNG['sub_email_comment'] = 'Receive e-mails when someone comments on your tracks';
+$LNG['ttl_email_comment'] = 'Yorumlarda email';
+$LNG['sub_email_comment'] = 'birileri parçalarınız için yorum yaptığında email al';
 
-$LNG['ttl_email_like'] = 'Emails on Likes';
-$LNG['sub_email_like'] = 'Receive e-mails when someone likes your tracks';
+$LNG['ttl_email_like'] = 'Beğenilerde email';
+$LNG['sub_email_like'] = 'Birileri parçalarını beğendiğinde email al';
 
-$LNG['ttl_email_new_friend'] = 'Emails on New Friends';
-$LNG['sub_email_new_friend'] = 'Receive e-mails when someone adds you as friend';
+$LNG['ttl_email_new_friend'] = 'Yeni arkadaşlarda email ';
+$LNG['sub_email_new_friend'] = 'Birileri seni arkadaş olarak eklediğinde email al';
 
-$LNG['user_ttl_sidebar'] = 'Settings';
+$LNG['user_ttl_sidebar'] = 'Ayarlar';
 
 // ADMIN PANEL //
-$LNG['admin_login'] = 'Admin Login';
-$LNG['admin_user_name'] = 'Username';
-$LNG['desc_admin_user'] = 'Type in your Admin Username';
-$LNG['admin_pass'] = 'Password';
-$LNG['desc_admin_pass'] = 'Type in your Admin Password';
+$LNG['admin_login'] = 'Admin Girişi';
+$LNG['admin_user_name'] = 'Kullanıcı adı';
+$LNG['desc_admin_user'] = 'Admin kullanıcı adını gir';
+$LNG['admin_pass'] = 'Şifre';
+$LNG['desc_admin_pass'] = 'Admin şifreni gir';
 $LNG['admin_menu_logout'] = 'Log Out';
 $LNG['admin_ttl_sidebar'] = 'Menu';
 $LNG['admin_menu_dashboard']			= $LNG['admin_ttl_dashboard']		= 'Dashboard';
