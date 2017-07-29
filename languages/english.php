@@ -414,77 +414,77 @@ $LNG['admin_user_name'] = 'Kullanıcı adı';
 $LNG['desc_admin_user'] = 'Admin kullanıcı adını gir';
 $LNG['admin_pass'] = 'Şifre';
 $LNG['desc_admin_pass'] = 'Admin şifreni gir';
-$LNG['admin_menu_logout'] = 'Log Out';
-$LNG['admin_ttl_sidebar'] = 'Menu';
+$LNG['admin_menu_logout'] = 'Çıkış';
+$LNG['admin_ttl_sidebar'] = 'Menü';
 $LNG['admin_menu_dashboard']			= $LNG['admin_ttl_dashboard']		= 'Dashboard';
-$LNG['admin_menu_site_settings'] 		= $LNG['admin_ttl_site_settings']	= 'Site Settings';
-$LNG['admin_menu_security']				= $LNG['admin_ttl_security']		= 'Password';
-$LNG['admin_menu_manage_users'] 		= $LNG['admin_ttl_users']			= 'Manage Users';
-$LNG['admin_menu_stats'] 				= $LNG['admin_ttl_stats'] 			= 'Statistics';
-$LNG['admin_menu_users_settings'] 		= $LNG['admin_ttl_users_settings']	= 'Users Settings';
-$LNG['admin_menu_social'] 				= $LNG['admin_ttl_social']			= 'Social Login';
-$LNG['admin_menu_pro'] 					= $LNG['admin_ttl_pro']				= 'Pro Accounts';
-$LNG['admin_menu_themes'] 				= $LNG['admin_ttl_themes']			= 'Themes';
-$LNG['admin_menu_languages']			= $LNG['admin_ttl_languages'] 		= 'Languages';
-$LNG['admin_menu_manage_payments']		= $LNG['admin_ttl_payments']		= 'Manage Payments';
-$LNG['admin_menu_manage_reports']		= $LNG['admin_ttl_reports']			= 'Manage Reports';
-$LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Manage Ads';
-$LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Manage Categories';
-$LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Info Pages';
+$LNG['admin_menu_site_settings'] 		= $LNG['admin_ttl_site_settings']	= 'Site Ayarları';
+$LNG['admin_menu_security']				= $LNG['admin_ttl_security']		= 'Şifre';
+$LNG['admin_menu_manage_users'] 		= $LNG['admin_ttl_users']			= 'Kullanıcıları Yönet';
+$LNG['admin_menu_stats'] 				= $LNG['admin_ttl_stats'] 			= 'İstatistikler';
+$LNG['admin_menu_users_settings'] 		= $LNG['admin_ttl_users_settings']	= 'Kullanıcı Ayarları';
+$LNG['admin_menu_social'] 				= $LNG['admin_ttl_social']			= 'Social Giriş';
+$LNG['admin_menu_pro'] 					= $LNG['admin_ttl_pro']				= 'Pro Hesaplar';
+$LNG['admin_menu_themes'] 				= $LNG['admin_ttl_themes']			= 'Temalar';
+$LNG['admin_menu_languages']			= $LNG['admin_ttl_languages'] 		= 'Diller';
+$LNG['admin_menu_manage_payments']		= $LNG['admin_ttl_payments']		= 'Ödemeleri Yönet';
+$LNG['admin_menu_manage_reports']		= $LNG['admin_ttl_reports']			= 'Şikayetler Yönet';
+$LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Reklamları Yönet';
+$LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Kategorileri Yönet';
+$LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Bilgi Sayfaları';
 
-$LNG['admin_ttl_title'] = 'Title';
-$LNG['admin_sub_title'] = 'The site\'s title';
+$LNG['admin_ttl_title'] = 'Başlık';
+$LNG['admin_sub_title'] = 'Sitenin başlığı';
 
 $LNG['logo'] = 'Logo';
-$LNG['admin_sub_logo'] = 'The site\'s logo (PNG format)';
+$LNG['admin_sub_logo'] = 'Sitenin logosu (PNG format)';
 
 $LNG['admin_ttl_captcha'] = 'Captcha';
-$LNG['admin_sub_captcha'] = 'Enable captcha at registration';
+$LNG['admin_sub_captcha'] = 'Kayıtta captcha açık';
 
 $LNG['admin_ttl_timestamp'] = 'Timestamp';
-$LNG['admin_sub_timestamp'] = 'The Tracks, Comments and Chat timestamps type';
+$LNG['admin_sub_timestamp'] = 'Parçalar, Yorumlar and Sohbet timestamps tipi';
 
 $LNG['admin_ttl_timezone'] = 'Timezone';
 $LNG['admin_sub_timezone'] = 'Timezone supported by PHP';
 
-$LNG['admin_ttl_tracks_perpage'] = 'Tracks';
-$LNG['admin_sub_tracks_perpage'] = 'The number of tracks per page';
+$LNG['admin_ttl_tracks_perpage'] = 'Parçalar';
+$LNG['admin_sub_tracks_perpage'] = 'Her sayfada ki parça sayısı';
 
-$LNG['admin_ttl_com_perpage'] = 'Comments';
-$LNG['admin_sub_com_perpage'] = 'The number of comments per page';
+$LNG['admin_ttl_com_perpage'] = 'Yorumlar';
+$LNG['admin_sub_com_perpage'] = 'Her sayfadaki yorum sayısı';
 
-$LNG['admin_ttl_chat_perpage'] = 'Chat';
-$LNG['admin_sub_chat_perpage'] = 'The number of chat conversations per page';
+$LNG['admin_ttl_chat_perpage'] = 'Sohbet';
+$LNG['admin_sub_chat_perpage'] = 'Her sayfadaki sohbet sayısı';
 
 $LNG['admin_ttl_permalinks'] = 'Permalinks';
-$LNG['admin_sub_permalinks'] = 'Enable permalinks URL structure (example.com/profile/username)';
+$LNG['admin_sub_permalinks'] = 'Uygun permalink URL yapısı (example.com/profile/username)';
 
-$LNG['admin_ttl_volume'] = 'Volume';
-$LNG['admin_sub_volume'] = 'Set the default volume';
+$LNG['admin_ttl_volume'] = 'Ses ayarı';
+$LNG['admin_sub_volume'] = 'Standart ses düzeyine ayarla';
 
-$LNG['admin_ttl_nperpage'] = 'Notifications';
-$LNG['admin_sub_nperpage'] = 'The number of notifications to be shown (Notifications Page)';
+$LNG['admin_ttl_nperpage'] = 'Bildirimler';
+$LNG['admin_sub_nperpage'] = 'Sayfada gösterilecek bildirim sayısı (Bildirimler Sayfası)';
 
-$LNG['admin_ttl_message_limit'] = 'Message Limit';
-$LNG['admin_sub_message_limit'] = 'The number of characters allowed on comments and chat messages';
+$LNG['admin_ttl_message_limit'] = 'Mesaj Limiti';
+$LNG['admin_sub_message_limit'] = 'Yorumlarda ve sohbetlerde izin verilen karakter sayısı';
 
-$LNG['admin_ttl_email_reg'] = 'Email on Registration';
-$LNG['admin_sub_email_reg'] = 'Email users at registration';
+$LNG['admin_ttl_email_reg'] = 'Kayıtta Email';
+$LNG['admin_sub_email_reg'] = 'Üye kaydında Email';
 
-$LNG['admin_ttl_notificationsn'] = 'Events Notifications';
-$LNG['admin_sub_notificationsn'] = 'The update interval to check for new events notifications (in seconds)';
+$LNG['admin_ttl_notificationsn'] = 'Etkinlik Bildirim';
+$LNG['admin_sub_notificationsn'] = 'Yeni etkinlikler bildirimlerini kontrol etmek için güncelleme aralığı (saniye)';
 
-$LNG['admin_ttl_chatrefresh'] = 'Chat Refresh';
-$LNG['admin_sub_chatrefresh'] = 'The time how often the chat window updates with new messages (in seconds)';
+$LNG['admin_ttl_chatrefresh'] = 'Sohbet Yenileme';
+$LNG['admin_sub_chatrefresh'] = 'Sohbet penceresinin ne kadar sıklıkta yeni mesajlarla güncellendiği (saniye)';
 
-$LNG['admin_ttl_timeonline'] = 'Online Users';
-$LNG['admin_sub_timeonline'] = 'The amount of time to be considered online since the last user\'s activity (in seconds)';
+$LNG['admin_ttl_timeonline'] = 'Çevrimiçi Kullanıcılar';
+$LNG['admin_sub_timeonline'] = 'Son kullanıcının etkinliğinden bu yana çevrimiçi olarak kabul edilecek süre (saniye)';
 
-$LNG['admin_ttl_image_profile'] = 'Profile Image Size';
-$LNG['admin_sub_image_profile'] = 'Image size allowed to upload (profile cover and avatar) (in MB)';
+$LNG['admin_ttl_image_profile'] = 'Profil resim boyutu';
+$LNG['admin_sub_image_profile'] = 'Yüklenmesine izin verilen resim boyutu (profil kapağı ve avatar) (MB)';
 
-$LNG['admin_ttl_image_format'] = 'Profile Image Format';
-$LNG['admin_sub_image_format'] = 'Image format allowed for upload (profile cover and avatar), use only gif,png,jpg,jpeg other formats are not supported';
+$LNG['admin_ttl_image_format'] = 'Profil resim formatı';
+$LNG['admin_sub_image_format'] = 'Yüklenmesine izin verilen resim formatı (profil kapağı ve avatar), kullanılabilir formatlar gif,png,jpg,jpeg diğer formatlar desteklenmiyor';
 
 $LNG['admin_ttl_cover_size'] = 'Track Cover Size';
 $LNG['admin_sub_cover_size'] = 'Image size allowed to upload for track covers (in MB)';
