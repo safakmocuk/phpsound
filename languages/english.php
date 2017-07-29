@@ -486,29 +486,29 @@ $LNG['admin_sub_image_profile'] = 'Yüklenmesine izin verilen resim boyutu (prof
 $LNG['admin_ttl_image_format'] = 'Profil resim formatı';
 $LNG['admin_sub_image_format'] = 'Yüklenmesine izin verilen resim formatı (profil kapağı ve avatar), kullanılabilir formatlar gif,png,jpg,jpeg diğer formatlar desteklenmiyor';
 
-$LNG['admin_ttl_cover_size'] = 'Track Cover Size';
-$LNG['admin_sub_cover_size'] = 'Image size allowed to upload for track covers (in MB)';
+$LNG['admin_ttl_cover_size'] = 'Parça kapağı boyutu';
+$LNG['admin_sub_cover_size'] = 'Parça kapağı için izin verilen dosya boyutu ( MB)';
 
-$LNG['admin_ttl_cover_format'] = 'Track Cover Format';
-$LNG['admin_sub_cover_format'] = 'Image format allowed for upload for track covers, use only gif,png,jpg,jpeg other formats are not supported';
+$LNG['admin_ttl_cover_format'] = 'Parça kapağı formatı';
+$LNG['admin_sub_cover_format'] = 'Parça kapağı için yüklenmesine izin verilen resim formatı, kullanılabilir formatlar gif,png,jpg,jpeg diğer formatlar desteklenmiyor';
 
-$LNG['admin_ttl_track_size'] = 'Track Size';
-$LNG['admin_sub_track_size'] = 'Track size allowed to upload (in MB)';
+$LNG['admin_ttl_track_size'] = 'Parça boyutu';
+$LNG['admin_sub_track_size'] = 'Yüklenmesine izin verilen parça boyutu (in MB)';
 
-$LNG['admin_ttl_track_format'] = 'Track Format';
-$LNG['admin_sub_track_format'] = 'Track format allowed for upload, use only mp3,m4a,mp4 other formats are not supported';
+$LNG['admin_ttl_track_format'] = 'Parça Formatı';
+$LNG['admin_sub_track_format'] = 'Yüklenmesine izin verilen parça formatı, kullanabileceğiniz formatlar mp3,m4a,mp4 other diğer formatlar desteklenmemektedir';
 
-$LNG['admin_ttl_total_upload_size'] = 'Total Upload';
-$LNG['admin_sub_total_upload_size'] = 'Total track upload size allowed to upload by an user (in MB)';
+$LNG['admin_ttl_total_upload_size'] = 'Toplam Yükleme';
+$LNG['admin_sub_total_upload_size'] = 'Bir kullanıcı için izin verilen toplam parça boyutu (MB)';
 
-$LNG['admin_ttl_pro_track_size'] = 'Pro Track Size';
-$LNG['admin_sub_pro_track_size'] = 'Track size allowed to upload by pro users (in MB)';
+$LNG['admin_ttl_pro_track_size'] = 'Pro Parça Boyutu';
+$LNG['admin_sub_pro_track_size'] = 'Pro kullanıcılar için izin verilen toplam parça boyutu (MB)';
 
-$LNG['admin_ttl_pro_total_size'] = 'Pro Total Upload';
-$LNG['admin_sub_pro_total_size'] = 'Total track upload size allowed to upload by pro users (in MB)';
+$LNG['admin_ttl_pro_total_size'] = 'Pro Toplam Yükleme';
+$LNG['admin_sub_pro_total_size'] = 'Pro kullanıcılar için izin verilen toplam yükleme boyutu (MB)';
 
 $LNG['admin_as3'] = 'Amazon S3 Storage';
-$LNG['admin_sub_as3'] = 'Enable the Amazon S3 Storage';
+$LNG['admin_sub_as3'] = 'Uygunluğu Amazon S3 Storage';
 
 $LNG['admin_as3_key'] = 'Key';
 $LNG['admin_sub_as3_key'] = 'Amazon S3 Access Key ID';
@@ -523,7 +523,7 @@ $LNG['admin_as3_bucket'] = 'Bucket';
 $LNG['admin_sub_as3_bucket'] = 'Amazon S3 Bucket Name';
 
 $LNG['admin_ttl_fbapp'] = 'Facebook Login';
-$LNG['admin_sub_fbapp'] = 'Allow users to log-in using Facebook';
+$LNG['admin_sub_fbapp'] = 'Facebook kullanarak kullanıcı girişi sağlama';
 
 $LNG['admin_ttl_fbappid'] = 'App ID';
 $LNG['admin_sub_fbappid'] = 'Facebook App ID';
@@ -531,8 +531,8 @@ $LNG['admin_sub_fbappid'] = 'Facebook App ID';
 $LNG['admin_ttl_fbappsecret'] = 'App Secret'; 
 $LNG['admin_sub_fbappsecret'] = 'Facebook App Secret';
 
-$LNG['smtp_emails'] = 'SMTP Mails';
-$LNG['smtp_sub_emails'] = 'Enable sending emails trough SMTP';
+$LNG['smtp_emails'] = 'SMTP Mailleri';
+$LNG['smtp_sub_emails'] = 'SMTP ile mail gönderim uygunluğu';
 
 $LNG['smtp_host'] = 'SMTP Host';
 $LNG['smtp_sub_host'] = 'The SMTP Host';
@@ -541,63 +541,63 @@ $LNG['smtp_port'] = 'SMTP Port';
 $LNG['smtp_sub_port'] = 'The SMTP Port';
 
 $LNG['smtp_auth'] = 'SMTP Authentication';
-$LNG['smtp_sub_auth'] = 'Enable SMTP Authentication';
+$LNG['smtp_sub_auth'] = 'SMTP Authentication uygunluğu';
 
-$LNG['smtp_username'] = 'SMTP Username';
-$LNG['smtp_sub_username'] = 'The SMTP Username';
+$LNG['smtp_username'] = 'SMTP kullanıcı adı';
+$LNG['smtp_sub_username'] = 'The SMTP kullanıcı adı';
 
-$LNG['smtp_password'] = 'SMTP Password';
-$LNG['smtp_sub_password'] = 'The SMTP Password';
+$LNG['smtp_password'] = 'SMTP şifre';
+$LNG['smtp_sub_password'] = 'SMTP şifre';
 
-$LNG['standard_accounts'] = 'Standard Accounts';
-$LNG['admin_ttl_ppapp'] = 'Pro Accounts';
-$LNG['admin_sub_ppapp'] = 'Enable Pro Accounts with PayPal';
+$LNG['standard_accounts'] = 'Standard Hesaplar';
+$LNG['admin_ttl_ppapp'] = 'Pro Hesaplar';
+$LNG['admin_sub_ppapp'] = 'Pro hesapların PayPal ödeme uygunluğu';
 
-$LNG['admin_ttl_ppuser'] = 'PayPal Username';
-$LNG['admin_sub_ppuser'] = 'PayPal API Username';
+$LNG['admin_ttl_ppuser'] = 'PayPal kullanıcı adı';
+$LNG['admin_sub_ppuser'] = 'PayPal API kullanıcı adı';
 
-$LNG['admin_ttl_pppass'] = 'PayPal Password'; 
-$LNG['admin_sub_pppass'] = 'PayPal API Password';
+$LNG['admin_ttl_pppass'] = 'PayPal şifre'; 
+$LNG['admin_sub_pppass'] = 'PayPal API şifre';
 
-$LNG['admin_ttl_ppsign'] = 'PayPal Signature';
-$LNG['admin_sub_ppsign'] = 'PayPal API Signature';
+$LNG['admin_ttl_ppsign'] = 'PayPal imza';
+$LNG['admin_sub_ppsign'] = 'PayPal API imza';
 
 $LNG['admin_ttl_ppsand'] = 'PayPal Sandbox';
 $LNG['admin_sub_ppsand'] = 'PayPal sandbox for development mode';
 
-$LNG['admin_ttl_pro_plan_month'] = 'Month Plan';
-$LNG['admin_sub_pro_plan_month'] = 'Value of the monthly plan (e.g: 3.00 for 3 USD)';
+$LNG['admin_ttl_pro_plan_month'] = 'Aylık Plan';
+$LNG['admin_sub_pro_plan_month'] = 'Aylık plan bedeli (ör: 3.00 için 3 USD)';
 
-$LNG['admin_ttl_pro_plan_year'] = 'Year Plan';
-$LNG['admin_sub_pro_plan_year'] = 'Value of the pro plan (e.g: 29.00 for 29 USD)';
+$LNG['admin_ttl_pro_plan_year'] = 'Yıllık Plan';
+$LNG['admin_sub_pro_plan_year'] = 'Pro plan değeri (ör: 29.00 için 29 USD)';
 
-$LNG['admin_ttl_currency'] = 'Currency';
-$LNG['admin_sub_currency'] = 'Currency type for the plans';
+$LNG['admin_ttl_currency'] = 'Para Birimi';
+$LNG['admin_sub_currency'] = 'Planlar için para birimi';
 
-$LNG['admin_ttl_ad1'] = 'Ad Unit 1';
-$LNG['admin_sub_ad1'] = 'Advertisement Unit 1 (Bottom [Welcome Page])';
+$LNG['admin_ttl_ad1'] = 'Reklam birimi 1';
+$LNG['admin_sub_ad1'] = 'Reklam birimi 1 (Alt [Hoşgeldin sayfası])';
 
-$LNG['admin_ttl_ad2'] = 'Ad Unit 2';
-$LNG['admin_sub_ad2'] = 'Advertisement Unit 2 (Sidebar [Explore Page])';
+$LNG['admin_ttl_ad2'] = 'Reklam birimi 2';
+$LNG['admin_sub_ad2'] = 'Reklam birimi 2 (Yan kolon [Keşfet sayfası])';
 
-$LNG['admin_ttl_ad3'] = 'Ad Unit 3';
-$LNG['admin_sub_ad3'] = 'Advertisement Unit 3 (Sidebar [Stream Page])';
+$LNG['admin_ttl_ad3'] = 'Reklam birimi 3';
+$LNG['admin_sub_ad3'] = 'Reklam birimi 3 (Yan kolon [Akış sayfası])';
 
-$LNG['admin_ttl_ad4'] = 'Ad Unit 4';
-$LNG['admin_sub_ad4'] = 'Advertisement Unit 4 (Sidebar [Profile Page])';
+$LNG['admin_ttl_ad4'] = 'Reklam birimi 4';
+$LNG['admin_sub_ad4'] = 'Reklam birimi 4 (Yan kolon [Profil sayfası])';
 
-$LNG['admin_ttl_ad5'] = 'Ad Unit 5';
-$LNG['admin_sub_ad5'] = 'Advertisement Unit 5 (Sidebar [Track & Playlis Page])';
+$LNG['admin_ttl_ad5'] = 'Reklam birimi 5';
+$LNG['admin_sub_ad5'] = 'Reklam birimi 5 (Yan kolon [Parça & Çalma listesi sayfası])';
 
-$LNG['admin_ttl_ad6'] = 'Ad Unit 6';
-$LNG['admin_sub_ad6'] = 'Advertisement Unit 6 (Sidebar [Search Page])';
+$LNG['admin_ttl_ad6'] = 'Reklam birimi 6';
+$LNG['admin_sub_ad6'] = 'Reklam birimi 6 (Yan kolon [Arama sayfası])';
 
-$LNG['admin_ttl_edit_profile'] = 'Edit Profile';
+$LNG['admin_ttl_edit_profile'] = 'Profil düzenle';
 
-$LNG['admin_ttl_delete_profile'] = 'Delete Profile';
+$LNG['admin_ttl_delete_profile'] = 'Profil sil';
 
 $LNG['admin_ttl_mail'] = 'Email';
-$LNG['admin_ttl_username'] = 'Username';
+$LNG['admin_ttl_username'] = 'Kullanıcı adı';
 $LNG['admin_ttl_id'] = 'ID'; // As in user ID
 
 $LNG['admin_ttl_notificationl'] = 'Likes Notifications';
