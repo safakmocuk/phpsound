@@ -851,10 +851,10 @@ $LNG['profile_view_profile'] = 'Profili Göster';
 $LNG['profile_view_social'] = ' %s profilini göster';
 $LNG['pro_user'] = 'Pro Kullanıcı';
 $LNG['edit_profile_cover'] = 'Profil Resmini Göster';
-$LNG['view_all_notifications'] = 'View More Notifications';
-$LNG['view_chat_notifications'] = 'View More Messages';
-$LNG['close_notifications'] = 'Close Notifications';
-$LNG['notifications_settings'] = 'Notifications Settings';
+$LNG['view_all_notifications'] = 'Daha fazla bildirim göster';
+$LNG['view_chat_notifications'] = 'Daha fazla mesaj göster';
+$LNG['close_notifications'] = 'Bildirimleri kapat';
+$LNG['notifications_settings'] = 'Bildirim Ayarları';
 $LNG['no_notifications'] = 'No notifications';
 $LNG['search_title'] = 'Search Results';
 $LNG['view_all_results'] = 'View All Results';
@@ -863,9 +863,9 @@ $LNG['no_results'] = 'No results available. Try another search.';
 $LNG['no_results_ttl'] = 'Search Results';
 $LNG['search_for_users'] = 'Search for users';
 $LNG['search_in_friends'] = 'Search in friends';
-$LNG['follows'] = 'Follows';
-$LNG['followed_by'] = 'Followed by';
-$LNG['people'] = 'people';
+$LNG['follows'] = 'Takipler';
+$LNG['followed_by'] = 'Tarafından takipte';
+$LNG['people'] = 'kişiler';
 $LNG['join_date'] = 'Join Date';
 
 // PHP MODULES
