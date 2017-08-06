@@ -628,61 +628,61 @@ $LNG['admin_ttl_rperpage'] = 'Yönetici Paneli';
 $LNG['admin_sub_rperpage'] = 'Yönetim sayfalarında görüntülenecek sonuç sayfası';
 
 $LNG['admin_ttl_sperpage'] = 'Arkadaşlar';
-$LNG['admin_sub_sperpage'] = 'Number of friends per page to be displayed (profile page)';
+$LNG['admin_sub_sperpage'] = 'Her sayfada görüntülecek arkadaş sayısı (profil sayfası)';
 
 $LNG['admin_ttl_aperip'] = 'Hesaplar';
-$LNG['admin_sub_aperip'] = 'Number of accounts allowed to register per IP (0 for unlimited)';
+$LNG['admin_sub_aperip'] = 'Her IP den kayda izin verilen hesap sayısı (0 sınırsız kayıtı gösterir)';
 
-$LNG['admin_ttl_ronline'] = 'Online Arkadaşlar';
-$LNG['admin_sub_ronline'] = 'Number of online friends to be displayed on the Feed/Subscriptions page (sidebar).';
+$LNG['admin_ttl_ronline'] = 'Çevrimiçi Arkadaşlar';
+$LNG['admin_sub_ronline'] = 'Akış ve kayıt sayfasında gösterilecek çevrimiçi arkadaş sayısı (yan kolon).';
 
 $LNG['admin_ttl_nperwidget'] = 'Açılan bildirimler';
-$LNG['admin_sub_nperwidget'] = 'Number of notifications to be shown per category (likes, comments, tracks)';
+$LNG['admin_sub_nperwidget'] = 'Her kategoride gösterilecek bildirim sayısı (beğeniler, yorumlar, parçalar)';
 
 $LNG['admin_sub_tracking'] = 'The analytics tracking code';
 
-$LNG['page_title'] = 'Page Title';
-$LNG['page_url'] = 'Page URL';
-$LNG['public_page'] = 'Public Page';
-$LNG['page_content'] = 'Page Content';
-$LNG['create_page'] = 'Create Page';
+$LNG['page_title'] = 'Sayfa Başlığı';
+$LNG['page_url'] = 'Sayfa URL';
+$LNG['public_page'] = 'Herkese Açık Sayfa';
+$LNG['page_content'] = 'Sayfa İçeriği';
+$LNG['create_page'] = 'Sayfa Oluştur';
 
-$LNG['sub_page_title'] = 'The page title (supports translatable strings)';
-$LNG['sub_page_url'] = 'The page URL (no special characters)';
-$LNG['sub_public_page'] = 'Display the page in footer and sidebar';
-$LNG['sub_page_content'] = 'The page content (supports translatable strings)';
-$LNG['url_exists'] = 'This page URL already exists';
-$LNG['page_deleted'] = 'The page <strong>%s</strong> has been deleted';
+$LNG['sub_page_title'] = 'Sayfa başlığı (Çevirilebilir dizeleri destekler)';
+$LNG['sub_page_url'] = 'Sayfa URL (özel karakterler kullanmayınız)';
+$LNG['sub_public_page'] = 'Sayfayı altkısım ve yan kolonda göster';
+$LNG['sub_page_content'] = 'Sayfa içeriği (Çevirilebilir dizeleri destekler)';
+$LNG['url_exists'] = 'Sayfa URL zaten mevcut';
+$LNG['page_deleted'] = ' <strong>%s</strong>sayfası silinmiş';
 
-$LNG['per_page'] = '/ page';
+$LNG['per_page'] = '/ sayfa';
 $LNG['per_ip'] = '/ IP';
-$LNG['second'] = 'second';
-$LNG['seconds'] = 'seconds';
-$LNG['minute'] = 'minute';
-$LNG['minutes'] = 'minutes';
-$LNG['hour'] = 'hour';
-$LNG['recommended'] = 'recommended';
-$LNG['edit_user'] = 'Edit User';
-$LNG['username_to_edit'] = 'Enter a username';
-$LNG['username_to_edit_sub'] = 'Enter the username you want to edit';
-$LNG['add_category'] = 'Add category';
-$LNG['add_category_desc'] = 'These categories are shown on the Explore page';
-$LNG['case_id'] = 'Case ID';
-$LNG['enter_case_id'] = 'Enter the Case ID you want to view';
-$LNG['valid_rcs'] = 'Valid reported copyright strikes';
-$LNG['payment_id'] = 'Payment ID';
-$LNG['enter_payment_id'] = 'Enter a Payment ID you want to view';
+$LNG['second'] = 'saniye';
+$LNG['seconds'] = 'saniye';
+$LNG['minute'] = 'dakika';
+$LNG['minutes'] = 'dakika';
+$LNG['hour'] = 'saat';
+$LNG['recommended'] = 'tavsiye edildi';
+$LNG['edit_user'] = 'Kullanıcıyı düzenle';
+$LNG['username_to_edit'] = 'Bir kullanıcı adı gir';
+$LNG['username_to_edit_sub'] = 'Düzenlemek istediğiniz kullanıcı adını giriniz';
+$LNG['add_category'] = 'Kategori ekle';
+$LNG['add_category_desc'] = 'Bu kategoriler Keşfet ayfasında görüntüleniyor';
+$LNG['case_id'] = 'Vaka ID';
+$LNG['enter_case_id'] = 'İncelemek istediğiniz Vaka ID sini giriniz';
+$LNG['valid_rcs'] = 'Telif hakkı ihtarı bildirimleri geçerli';
+$LNG['payment_id'] = 'Ödeme ID';
+$LNG['enter_payment_id'] = 'Görüntülemek istediğiniz ödeme ID sini girin';
 
 // STATS //
-$LNG['user_registration'] = 'User Registration';
-$LNG['users_today'] = 'Today';
-$LNG['users_this_month'] = 'This Month';
-$LNG['users_last_30'] = 'Last 30 days';
-$LNG['total_users'] = 'Total';
-$LNG['plays_today'] = 'Plays Today';
-$LNG['plays_yesterday'] = 'Plays Yesterday';
-$LNG['plays_total'] = 'Plays Total';
-$LNG['total_plays'] = 'Total Plays';
+$LNG['user_registration'] = 'Kullanıcı Kaydı';
+$LNG['users_today'] = 'Bugün';
+$LNG['users_this_month'] = 'Bu ay';
+$LNG['users_last_30'] = 'Son 30 gün';
+$LNG['total_users'] = 'Toplam';
+$LNG['plays_today'] = 'Bugün dinlenenler';
+$LNG['plays_yesterday'] = 'Dün dinlenenler';
+$LNG['plays_total'] = 'Toplam dinleme';
+$LNG['total_plays'] = 'Toplam dinlenme';
 $LNG['plays_this_month'] = 'Plays This Month';
 $LNG['tracks_uploaded'] = 'Tracks Uploaded';
 $LNG['used_space'] = 'Used Space';
