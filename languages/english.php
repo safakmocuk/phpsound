@@ -600,43 +600,43 @@ $LNG['admin_ttl_mail'] = 'Email';
 $LNG['admin_ttl_username'] = 'Kullanıcı adı';
 $LNG['admin_ttl_id'] = 'ID'; // As in user ID
 
-$LNG['admin_ttl_notificationl'] = 'Likes Notifications';
-$LNG['admin_sub_notificationl'] = 'Display alert and notifications for <strong>Likes</strong> (can be changed from user\'s settings)';
+$LNG['admin_ttl_notificationl'] = 'Beğenme bildirimleri';
+$LNG['admin_sub_notificationl'] = '<strong>Beğeni</strong> için uyarı ve bildirimler (kullanıcı ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_notificationc'] = 'Comments Notifications';
-$LNG['admin_sub_notificationc'] = 'Display alert and notifications for <strong>Comments</strong> (can be changed from user\'s settings)';
+$LNG['admin_ttl_notificationc'] = 'Yorum bildirimleri';
+$LNG['admin_sub_notificationc'] = '<strong>Yorumlar</strong> için uyarı ve bildirimler (kullanıcı ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_notificationd'] = 'Chat Notifications';
-$LNG['admin_sub_notificationd'] = 'Display alert and notifications for <strong>Chats</strong> (can be changed from user\'s settings)';
+$LNG['admin_ttl_notificationd'] = 'Sohbet bildirimleri';
+$LNG['admin_sub_notificationd'] = '<strong>Chats</strong> için uyarı ve bildirimler (kullanıcı ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_notificationf'] = 'Friends Notifications';
-$LNG['admin_sub_notificationf'] = 'Display alert and notifications for <strong>Friends Additions</strong> (can be changed from user\'s settings)';
+$LNG['admin_ttl_notificationf'] = 'Arkadaş bildirimleri';
+$LNG['admin_sub_notificationf'] = '<strong>Arkadaş ekleme </strong> için uyarı ve bildirimler (kullanıcı ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_email_comment'] = 'Email on Comment';
-$LNG['admin_sub_email_comment'] = 'Enable sending e-mails when someone comments to a track';
+$LNG['admin_ttl_email_comment'] = 'Yorum gelince email';
+$LNG['admin_sub_email_comment'] = 'Birisi bir parçaya yorum yaptığında email gönderimine uygun';
 
-$LNG['admin_ttl_email_like'] = 'Email on Like';
-$LNG['admin_sub_email_like'] = 'Enable sending e-mails when someone likes a track';
+$LNG['admin_ttl_email_like'] = 'Beğeni gelince email';
+$LNG['admin_sub_email_like'] = 'Birisi parça beğendiğinde email gönderimine uygun';
 
-$LNG['admin_ttl_email_new_friend'] = 'Email on New Friend';
-$LNG['admin_sub_email_new_friend'] = 'Enable sending e-mails when someone adds a friend';
+$LNG['admin_ttl_email_new_friend'] = 'Yeni arkadaşlıkta email';
+$LNG['admin_sub_email_new_friend'] = 'Birisi arkadaş eklediğinde email gönderimine uygun';
 
-$LNG['admin_ttl_wholiked'] = 'Who Liked';
-$LNG['admin_sub_wholiked'] = 'Display avatars of the users that liked a track';
+$LNG['admin_ttl_wholiked'] = 'Kim beğendi';
+$LNG['admin_sub_wholiked'] = 'Kullanıcılar bir parça beğendiğinde avatarlarını görüntüle';
 
-$LNG['admin_ttl_rperpage'] = 'Admin Panel';
-$LNG['admin_sub_rperpage'] = 'Results per page for Admin Manage pages';
+$LNG['admin_ttl_rperpage'] = 'Yönetici Paneli';
+$LNG['admin_sub_rperpage'] = 'Yönetim sayfalarında görüntülenecek sonuç sayfası';
 
-$LNG['admin_ttl_sperpage'] = 'Friends';
+$LNG['admin_ttl_sperpage'] = 'Arkadaşlar';
 $LNG['admin_sub_sperpage'] = 'Number of friends per page to be displayed (profile page)';
 
-$LNG['admin_ttl_aperip'] = 'Accounts';
+$LNG['admin_ttl_aperip'] = 'Hesaplar';
 $LNG['admin_sub_aperip'] = 'Number of accounts allowed to register per IP (0 for unlimited)';
 
-$LNG['admin_ttl_ronline'] = 'Online Friends';
+$LNG['admin_ttl_ronline'] = 'Online Arkadaşlar';
 $LNG['admin_sub_ronline'] = 'Number of online friends to be displayed on the Feed/Subscriptions page (sidebar).';
 
-$LNG['admin_ttl_nperwidget'] = 'Dropdown Notifications';
+$LNG['admin_ttl_nperwidget'] = 'Açılan bildirimler';
 $LNG['admin_sub_nperwidget'] = 'Number of notifications to be shown per category (likes, comments, tracks)';
 
 $LNG['admin_sub_tracking'] = 'The analytics tracking code';
